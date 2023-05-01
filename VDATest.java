@@ -24,5 +24,7 @@ public class VDATest {
         x = y;
         y = z;
         System.out.println("x = " + x + ", y = " + y);
+
+        String str1 = "aabbcc";
     }
 }
