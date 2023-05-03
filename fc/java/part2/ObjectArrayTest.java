@@ -1,3 +1,5 @@
+package fc.java.part2;
+
 public class ObjectArrayTest {
     public static void main(String[] args) {
 

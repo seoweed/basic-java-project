@@ -1,3 +1,5 @@
+package fc.java.part2;
+
 public class Movie {
     private String name;
     private String author;

@@ -1,3 +1,5 @@
+package fc.java.part2;
+
 public class VDATest {
     public static void main(String[] args) {
         // 정수 한 개 변수 선언

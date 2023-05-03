@@ -1,3 +1,5 @@
+package fc.java.part2;
+
 public class WhileLoopTest {
     public static void main(String[] args) {
         int[] numbers = {1,20,30,4,50,6,70,8,90,10};
