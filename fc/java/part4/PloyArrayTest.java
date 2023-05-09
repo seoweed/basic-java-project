@@ -18,11 +18,11 @@ public class PloyArrayTest {
     }
 
     private static void display(Animal[] ani) {
-        for (int i = 0; i < ani.length; i++) {
-            ani[i].eat();
-            if (ani[i] instanceof Cat) {
+        for (int a = 0; a < ani.length; a++) {
+            ani[a].eat();
+            if (ani[a] instanceof Cat) {
 
-                ((Cat) ani[i]).night();
+                ((Cat) ani[a]).night();
             }
         }
     }
