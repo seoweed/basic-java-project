@@ -10,6 +10,9 @@ public class ObjectArray {
     public ObjectArray() {
         elements = new Object[DEFAULT_CAPACITY];
     }
+    public ObjectArray(int a) {
+        elements = new Object[a]; // 원하는 크기의 배열을 생성
+    }
     public void add(Object obj) {
         if (size == elements.length) {
             ensureCapacity();

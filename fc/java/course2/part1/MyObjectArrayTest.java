@@ -5,7 +5,7 @@ import fc.java.course2.model2.ObjectArray;
 
 public class MyObjectArrayTest {
     public static void main(String[] args) {
-        ObjectArray objectArray = new ObjectArray();
+        ObjectArray objectArray = new ObjectArray(10);
 
         objectArray.add("문자열");
         objectArray.add(505);
